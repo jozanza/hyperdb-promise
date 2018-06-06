@@ -4,6 +4,7 @@ module.exports = class extends HyperDB {
   constructor(...args) {
     super(...args)
     for (const k of [
+      'version',
       'put',
       'get',
       'del',
