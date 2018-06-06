@@ -1,7 +1,6 @@
-import HyperDB from 'hyperdb'
-import { promisify } from 'es6-promisify'
-
-export default class extends HyperDB {
+const HyperDB = require('hyperdb')
+const { promisify } = require('es6-promisify')
+module.exports = class extends HyperDB {
   constructor(...args) {
     super(...args)
     for (const k of [

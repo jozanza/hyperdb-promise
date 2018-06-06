@@ -1,10 +1,10 @@
 {
   "name": "hyperdb-promise",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha.0",
   "description": "Distributed scalable database with a Promise-based API",
   "main": "index.js",
   "dependencies": {
-    "es6-promisify": "6.0.0",
+    "es6-promisify": "6.0.0"
   },
   "peerDependencies": {
     "hyperdb": "3.1.2"
@@ -20,5 +20,5 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jozanza/hyperdb-promise/issues"
-  },
+  }
 }
