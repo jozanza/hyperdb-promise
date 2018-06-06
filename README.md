@@ -17,7 +17,7 @@ const db = new HyperDB('./my.db', { valueEncoding: 'utf-8' })
 
 db.on('ready', async () => {
   await db.put('/hello', 'world')
-  const [value] = await db.get('/hello')
+  const [{ value }] = await db.get('/hello')
   console.log(`/hello --> ${value}`)
 })
 ```
